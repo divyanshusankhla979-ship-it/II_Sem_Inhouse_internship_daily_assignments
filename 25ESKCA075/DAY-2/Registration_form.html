@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/formStylesheet.css">
+    <style> 
+    
+    </style>
+<style>
+
+    p{
+        font-size: 14pt;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
+        sans-serif;
+        font-weight: bold;
+        
+    }
+</style>
+</head>
+<body>
+   <form > 
+    <h1 style="color: rgb(242, 56, 9);">Registration-form</h1>
+    <label for="txtName">Name:</label> 
+     <input type="text" id="txtName" required placeholder=" Enter your name">
+     <br>
+     <label>Email:
+        <input type="email" id="txtEmail" required
+        placeholder="Enter your email">
+     </label>
+     <br>
+     <label> 
+        Phone No:
+        <input type="text" id="txtPhone" required
+        placeholder="Enter your phone no">
+     </label>
+     <br>
+
+     <input type="radio" id="check-male" name="gender" checked>
+     <label for="check-male">male</label>
+
+
+     <input type="radio" id="check-female" name="gender" checked>
+     <label for="check-female">female</label>
+
+     <input type="radio" id="check-transgender" name="gender" checked>
+     <label for="check-transgender">transgender</label>
+
+     <input type="radio" id="check-other" name="gender" checked>
+     <label for="check-other">prefer not say</label>
+     <br>
+
+     <input type="date" id="dtDOB" name="dtDOB" >
+     <label for="DOB">DOB</label>
+     <br>
+
+     <label for="password">Password</label>
+     <input type="password" id="password" name="Password">
+     <br>
+
+     <label for="ConfirmPassword">Confirm Password</label>
+     <input type="password" id="ConfirmPassword"
+     name="ConfirmPassword">
+   </form>
+    
+</body>
+</html>
